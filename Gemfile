@@ -10,6 +10,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 
+gem 'graphql', '~> 1.10'
 gem 'rack-cors'
 
 group :development, :test do
