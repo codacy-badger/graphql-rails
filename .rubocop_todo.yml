@@ -1,0 +1,78 @@
+
+Layout/EmptyLineAfterGuardClause:
+  Exclude:
+    - 'bin/bundle'
+
+Layout/MultilineOperationIndentation:
+  Exclude:
+    - 'bin/bundle'
+
+Metrics/AbcSize:
+  Max: 17
+
+Metrics/CyclomaticComplexity:
+  Max: 8
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Max: 8
+
+Style/Documentation:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Exclude:
+    - 'bin/bundle'
+    - 'bin/rails'
+    - 'bin/rake'
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'bin/rails'
+    - 'bin/rake'
+    - 'bin/setup'
+    - 'bin/spring'
+
+Style/IfUnlessModifier:
+  Exclude:
+    - 'bin/bundle'
+
+Style/PerlBackrefs:
+  Exclude:
+    - 'bin/bundle'
+
+Style/SpecialGlobalVars:
+  EnforcedStyle: use_perl_names
+
+Style/StringLiterals:
+  Exclude:
+    - 'bin/bundle'
+
+Layout/LineLength:
+  Max: 198
+
+Style/HashEachMethods:
+  Enabled: true
+  Safe: true
+
+Style/HashTransformKeys:
+  Enabled: true
+  Safe: true
+
+Style/HashTransformValues:
+  Enabled: true
+  Safe: true
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: true
+
+Style/ExponentialNotation:
+  Enabled: false
+
+Lint/StructNewOverride:
+  Enabled: true
